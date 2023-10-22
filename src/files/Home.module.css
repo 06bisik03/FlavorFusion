@@ -1,0 +1,180 @@
+.container {
+    width:100%; 
+    height: 90vh;
+
+    display: grid;
+    justify-self: center;
+    grid-template-rows: 85% 15%
+}
+.topText {
+    width:100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.leftText {
+    width:70%;
+    height: 70%;
+    justify-self: center;
+    align-self: center;
+
+    display: grid;
+    grid-template-rows: 70% 15% 15%;
+
+}
+.leftText > div:nth-child(1) {
+    width:100%;
+    font-size: 60px;
+    align-items: center;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.leftText > div:nth-child(2) {
+    width:100%;
+    display: grid;
+
+text-align: center;
+
+    font-size: 17px;
+    font-weight: 400;
+}
+.leftText > div:nth-child(3) {
+    width:100%;
+    display: flex;
+    gap:  10%;
+    justify-content: center;
+}
+
+.leftText > div:nth-child(3) > button:nth-child(1) {
+    width: 30%;
+    height: 60%;
+    align-self: center;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+   
+     color:white;
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+ cursor: pointer;
+}
+.leftText > div:nth-child(3) > button:nth-child(1):hover {
+    transform: scale(1.2);
+
+}
+.leftText > div:nth-child(3) > button:nth-child(2):hover {
+    transform: scale(1.2);
+}
+.leftText > div:nth-child(3) > button:nth-child(2) {
+    width: 30%;
+    height: 60%;
+    align-self: center;
+    color:white;
+    background-color: rgb(0, 10, 48);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+ cursor: pointer;
+    border: none;
+    border-radius: 10px;
+} 
+.rightImg {
+    width: 90%;
+height: 95%;
+    align-self: center;
+    background-image: url('/public/images/fineDine.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bottomMenu {
+    width:100%;
+display: grid;
+    justify-self: center;
+
+}
+.bottomItem {
+    width:90%;
+    height:80%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+
+
+}
+.bottomItem3 {
+    width:90%;
+    height:80%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.bottomItem > div:nth-child(1) {
+    width:100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.bottomItem > div:nth-child(1) img {
+    max-width: 100%;
+    height:80%;
+   
+    align-self: center;
+
+    position: absolute;
+}
+.bottomItem3 > div:nth-child(2) {
+    width:90%;
+    padding-left: 10%;
+    display: grid;
+    grid-template-rows: 35% 65%;
+
+}
+.bottomItem3 > div:nth-child(2) > div:nth-child(1) {
+    font-size: 20px;
+    color: orange;
+}
+.bottomItem3 > div:nth-child(2) > div:nth-child(2) {
+    font-size: 18px;
+}
+.bottomItem3 > div:nth-child(1) {
+    width:100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.bottomItem3 > div:nth-child(1) img {
+    max-width: 100%;
+    height:100%;
+   
+    align-self: center;
+
+    position: absolute;
+}
+.bottomItem > div:nth-child(2) {
+    width:90%;
+    padding-left: 10%;
+    display: grid;
+    grid-template-rows: 35% 65%;
+
+}
+.bottomItem > div:nth-child(2) > div:nth-child(1) {
+    font-size: 20px;
+    color: orange;
+}
+.bottomItem > div:nth-child(2) > div:nth-child(2) {
+    font-size: 18px;
+}
+.bottomContent {
+    width: 75%;
+    align-items: center;
+    height:100%;
+    gap: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    justify-self: center;
+}
