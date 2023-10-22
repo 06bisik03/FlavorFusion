@@ -6,6 +6,7 @@ import IntroPage from './files/Pages/IntroPage';
 import MealsPage from "./files/Pages/MealsPage";
 import BookingPage from "./files/Pages/BookingPage";
 function App() {
+  
   return (
     <BrowserRouter>
       <Routes>
